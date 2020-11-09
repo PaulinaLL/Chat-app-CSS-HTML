@@ -1,0 +1,60 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  margin: 0;
+  position: relative;
+  height: 100vh;
+}
+
+.deco {
+  min-height: 600px;
+  max-width: 300px;
+  border-radius: 0 0 100vh 100vh;
+  background-color: violet;
+}
+
+.app-description {
+  max-width: 400px;
+  border: 1px solid black;
+}
+
+.device-prototype {
+}
+
+.deco-2 {
+  min-height: 600px;
+  max-width: 300px;
+  border-radius: 100vh 100vh 0 0;
+  background-color: blue;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* images */
+
+.avatar {
+  border-radius: 50%;
+  width: 30px;
+}
+.dog-pic {
+  border-radius: 8%;
+  width: 50px;
+}
+
+ul {
+  list-style: none;
+}
+
+/* messages */
+.message-walker {
+  color: gray;
+}
+
+.message-owner {
+  color: violet;
+  background-color: thistle;
+}
